@@ -1,0 +1,10 @@
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject03\MV_MiniProject03\MV_MiniProject03\bin\Debug\MV_MiniProject03.exe.config
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject03\MV_MiniProject03\MV_MiniProject03\bin\Debug\MV_MiniProject03.exe
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject03\MV_MiniProject03\MV_MiniProject03\bin\Debug\MV_MiniProject03.pdb
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject03\MV_MiniProject03\MV_MiniProject03\obj\Debug\MV_MiniProject03.csprojAssemblyReference.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject03\MV_MiniProject03\MV_MiniProject03\obj\Debug\MV_MiniProject03.Form1.resources
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject03\MV_MiniProject03\MV_MiniProject03\obj\Debug\MV_MiniProject03.Properties.Resources.resources
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject03\MV_MiniProject03\MV_MiniProject03\obj\Debug\MV_MiniProject03.csproj.GenerateResource.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject03\MV_MiniProject03\MV_MiniProject03\obj\Debug\MV_MiniProject03.csproj.CoreCompileInputs.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject03\MV_MiniProject03\MV_MiniProject03\obj\Debug\MV_MiniProject03.exe
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject03\MV_MiniProject03\MV_MiniProject03\obj\Debug\MV_MiniProject03.pdb

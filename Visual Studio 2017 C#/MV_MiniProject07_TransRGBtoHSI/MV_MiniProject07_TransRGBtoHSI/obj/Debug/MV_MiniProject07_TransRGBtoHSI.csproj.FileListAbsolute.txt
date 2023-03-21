@@ -1,0 +1,10 @@
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject07_TransRGBtoHSI\MV_MiniProject07_TransRGBtoHSI\bin\Debug\MV_MiniProject07_TransRGBtoHSI.exe.config
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject07_TransRGBtoHSI\MV_MiniProject07_TransRGBtoHSI\bin\Debug\MV_MiniProject07_TransRGBtoHSI.exe
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject07_TransRGBtoHSI\MV_MiniProject07_TransRGBtoHSI\bin\Debug\MV_MiniProject07_TransRGBtoHSI.pdb
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject07_TransRGBtoHSI\MV_MiniProject07_TransRGBtoHSI\obj\Debug\MV_MiniProject07_TransRGBtoHSI.csprojAssemblyReference.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject07_TransRGBtoHSI\MV_MiniProject07_TransRGBtoHSI\obj\Debug\MV_MiniProject07_TransRGBtoHSI.Form1.resources
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject07_TransRGBtoHSI\MV_MiniProject07_TransRGBtoHSI\obj\Debug\MV_MiniProject07_TransRGBtoHSI.Properties.Resources.resources
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject07_TransRGBtoHSI\MV_MiniProject07_TransRGBtoHSI\obj\Debug\MV_MiniProject07_TransRGBtoHSI.csproj.GenerateResource.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject07_TransRGBtoHSI\MV_MiniProject07_TransRGBtoHSI\obj\Debug\MV_MiniProject07_TransRGBtoHSI.csproj.CoreCompileInputs.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject07_TransRGBtoHSI\MV_MiniProject07_TransRGBtoHSI\obj\Debug\MV_MiniProject07_TransRGBtoHSI.exe
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject07_TransRGBtoHSI\MV_MiniProject07_TransRGBtoHSI\obj\Debug\MV_MiniProject07_TransRGBtoHSI.pdb

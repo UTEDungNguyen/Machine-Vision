@@ -1,0 +1,10 @@
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject13_SegmentationInRGB\MV_MiniProject13_SegmentationInRGB\bin\Debug\MV_MiniProject13_SegmentationInRGB.exe.config
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject13_SegmentationInRGB\MV_MiniProject13_SegmentationInRGB\bin\Debug\MV_MiniProject13_SegmentationInRGB.exe
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject13_SegmentationInRGB\MV_MiniProject13_SegmentationInRGB\bin\Debug\MV_MiniProject13_SegmentationInRGB.pdb
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject13_SegmentationInRGB\MV_MiniProject13_SegmentationInRGB\obj\Debug\MV_MiniProject13_SegmentationInRGB.csprojAssemblyReference.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject13_SegmentationInRGB\MV_MiniProject13_SegmentationInRGB\obj\Debug\MV_MiniProject13_SegmentationInRGB.Form1.resources
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject13_SegmentationInRGB\MV_MiniProject13_SegmentationInRGB\obj\Debug\MV_MiniProject13_SegmentationInRGB.Properties.Resources.resources
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject13_SegmentationInRGB\MV_MiniProject13_SegmentationInRGB\obj\Debug\MV_MiniProject13_SegmentationInRGB.csproj.GenerateResource.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject13_SegmentationInRGB\MV_MiniProject13_SegmentationInRGB\obj\Debug\MV_MiniProject13_SegmentationInRGB.csproj.CoreCompileInputs.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject13_SegmentationInRGB\MV_MiniProject13_SegmentationInRGB\obj\Debug\MV_MiniProject13_SegmentationInRGB.exe
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject13_SegmentationInRGB\MV_MiniProject13_SegmentationInRGB\obj\Debug\MV_MiniProject13_SegmentationInRGB.pdb

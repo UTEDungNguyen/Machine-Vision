@@ -1,0 +1,10 @@
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject06_TransRGBtoCMYK\MV_MiniProject06_TransRGBtoCMYK\obj\Debug\MV_MiniProject06_TransRGBtoCMYK.csprojAssemblyReference.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject06_TransRGBtoCMYK\MV_MiniProject06_TransRGBtoCMYK\obj\Debug\MV_MiniProject06_TransRGBtoCMYK.Form1.resources
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject06_TransRGBtoCMYK\MV_MiniProject06_TransRGBtoCMYK\obj\Debug\MV_MiniProject06_TransRGBtoCMYK.Properties.Resources.resources
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject06_TransRGBtoCMYK\MV_MiniProject06_TransRGBtoCMYK\obj\Debug\MV_MiniProject06_TransRGBtoCMYK.csproj.GenerateResource.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject06_TransRGBtoCMYK\MV_MiniProject06_TransRGBtoCMYK\obj\Debug\MV_MiniProject06_TransRGBtoCMYK.csproj.CoreCompileInputs.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject06_TransRGBtoCMYK\MV_MiniProject06_TransRGBtoCMYK\bin\Debug\MV_MiniProject06_TransRGBtoCMYK.exe.config
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject06_TransRGBtoCMYK\MV_MiniProject06_TransRGBtoCMYK\bin\Debug\MV_MiniProject06_TransRGBtoCMYK.exe
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject06_TransRGBtoCMYK\MV_MiniProject06_TransRGBtoCMYK\bin\Debug\MV_MiniProject06_TransRGBtoCMYK.pdb
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject06_TransRGBtoCMYK\MV_MiniProject06_TransRGBtoCMYK\obj\Debug\MV_MiniProject06_TransRGBtoCMYK.exe
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject06_TransRGBtoCMYK\MV_MiniProject06_TransRGBtoCMYK\obj\Debug\MV_MiniProject06_TransRGBtoCMYK.pdb

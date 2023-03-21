@@ -1,0 +1,123 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using ZedGraph;
+
+namespace MV_MiniProject05
+{
+    public partial class Form1 : Form
+    {
+        // Khai báo biến toàn cục để sử dụng cho các hàm khác dạng Bitmap
+        Bitmap HinhGoc;
+
+        public Form1()
+        {
+            InitializeComponent();
+
+            // Load hình .jpg từ file
+            HinhGoc = new Bitmap(@"D:\Machine Vision\Visual Studio 2017 C#\bird_small.jpg");
+
+            // Cho hiển thị trên pictureBox
+            picBox_Hinhgoc.Image = HinhGoc;
+
+            // Tính hình mức xám theo phương pháp Lightness và hiển thị
+            picBox_Lightness.Image = TransRGBtoGrayLightness(HinhGoc);
+
+            double[] histogram = CalculateHistogram(TransRGBtoGrayLightness(HinhGoc));
+            PointPairList points = TranstoHistogram(histogram);
+            zGHistogram.GraphPane = DrawHistogram(points);
+            zGHistogram.Refresh();
+
+        }
+
+        /// <summary>
+        /// Khai báo hàm tính toán mức xám theo phương pháp Lightness 
+        /// </summary>
+        /// <param name="hinhgoc"></param>
+        /// <returns></returns>
+        public Bitmap TransRGBtoGrayLightness(Bitmap hinhgoc)
+        {
+            // Điểm tọa độ (0,0) gốc trên hình là điểm trên cùng góc trái của hình
+            // Chiều X sẽ từ gốc tính về phải, Chiều Y từ gốc tính xuống 
+
+            // Khai báo biến Bitmap để lưu hình gốc vào 
+            Bitmap Graypicture = new Bitmap(hinhgoc.Width, hinhgoc.Height);
+            for (int x = 0; x < hinhgoc.Width; x++)
+                for (int y = 0; y < hinhgoc.Height; y++)
+                {
+                    // Lấy điểm ảnh
+                    Color pixel = hinhgoc.GetPixel(x, y);
+
+                    byte R = pixel.R;   // Giá trị kênh Red
+                    byte G = pixel.G;   // Giá trị kênh Green
+                    byte B = pixel.B;   // Giá trị kênh Blue
+
+                    // Tính giá trị mức xám cho điểm ảnh tại vị trí (x, y)
+                    byte max = Math.Max(R, Math.Max(G, B));
+                    byte min = Math.Min(R, Math.Min(G, B));
+                    // Vì khi tính thì ((max + min)/2) là kiểu số thực nên phải ép kiểu byte 8 bit
+                    byte gray = (byte)((max + min) / 2);
+
+                    // Gán giá trị mức xám vừa tính vào Hình mức xám 
+                    Graypicture.SetPixel(x, y, Color.FromArgb(gray, gray, gray));
+                }
+            return Graypicture;
+        }
+
+        public double[] CalculateHistogram(Bitmap HinhMucXam)
+        {
+            double[] histogram = new double[256];
+            for (int x = 0; x < HinhMucXam.Width; x++)
+                for (int y = 0; y < HinhMucXam.Height; y++)
+                {
+                    Color color = HinhMucXam.GetPixel(x, y);
+                    byte gray = color.R;
+                    histogram[gray]++;
+                }
+            return histogram;
+        }
+
+        PointPairList TranstoHistogram(double[] histogram)
+        {
+            // PointPairList là kiểu dữ liệu của ZedGraph để vẽ biểu đồ
+            PointPairList points = new PointPairList();
+            for (int i = 0; i < histogram.Length; i++)
+            {
+                points.Add(i, histogram[i]);
+            }
+            return points;
+        }
+
+        public GraphPane DrawHistogram(PointPairList histogram)
+        {
+            // GraphPane là đối tượng biểu đồ trong ZedGraph
+            GraphPane gp = new GraphPane();
+
+            gp.Title.Text = @"Biểu đồ Histogram";
+            gp.Rect = new Rectangle(0, 0, 913, 691);
+
+            gp.XAxis.Title.Text = @"Giá trị mức xám của các điểm ảnh";
+            gp.XAxis.Scale.Min = 0;
+            gp.XAxis.Scale.Max = 255;
+            gp.XAxis.Scale.MajorStep = 5;  // Mỗi bước chính là 5
+            gp.XAxis.Scale.MinorStep = 1;  // Mỗi bước trong 1 bước chính là 1
+
+            gp.YAxis.Title.Text = @"Giá trị mức xám của các điểm ảnh";
+            gp.YAxis.Scale.Min = 0;
+            gp.YAxis.Scale.Max = 15000;    // Số này phải lớn hơn kích thước ảnh (w*h)
+            gp.YAxis.Scale.MajorStep = 5;  // Mỗi bước chính là 5
+            gp.YAxis.Scale.MinorStep = 1;  // Mỗi bước trong 1 bước chính là 1
+
+            gp.AddBar("Histogram", histogram, Color.Red);
+
+            return gp;
+
+        }
+    }
+}

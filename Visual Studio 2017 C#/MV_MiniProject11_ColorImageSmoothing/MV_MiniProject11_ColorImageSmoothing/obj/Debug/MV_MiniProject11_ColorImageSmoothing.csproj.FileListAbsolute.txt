@@ -1,0 +1,10 @@
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject11_ColorImageSmoothing\MV_MiniProject11_ColorImageSmoothing\obj\Debug\MV_MiniProject11_ColorImageSmoothing.csprojAssemblyReference.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject11_ColorImageSmoothing\MV_MiniProject11_ColorImageSmoothing\obj\Debug\MV_MiniProject11_ColorImageSmoothing.Form1.resources
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject11_ColorImageSmoothing\MV_MiniProject11_ColorImageSmoothing\obj\Debug\MV_MiniProject11_ColorImageSmoothing.Properties.Resources.resources
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject11_ColorImageSmoothing\MV_MiniProject11_ColorImageSmoothing\obj\Debug\MV_MiniProject11_ColorImageSmoothing.csproj.GenerateResource.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject11_ColorImageSmoothing\MV_MiniProject11_ColorImageSmoothing\obj\Debug\MV_MiniProject11_ColorImageSmoothing.csproj.CoreCompileInputs.cache
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject11_ColorImageSmoothing\MV_MiniProject11_ColorImageSmoothing\bin\Debug\MV_MiniProject11_ColorImageSmoothing.exe.config
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject11_ColorImageSmoothing\MV_MiniProject11_ColorImageSmoothing\bin\Debug\MV_MiniProject11_ColorImageSmoothing.exe
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject11_ColorImageSmoothing\MV_MiniProject11_ColorImageSmoothing\bin\Debug\MV_MiniProject11_ColorImageSmoothing.pdb
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject11_ColorImageSmoothing\MV_MiniProject11_ColorImageSmoothing\obj\Debug\MV_MiniProject11_ColorImageSmoothing.exe
+D:\Machine Vision\Visual Studio 2017 C#\MV_MiniProject11_ColorImageSmoothing\MV_MiniProject11_ColorImageSmoothing\obj\Debug\MV_MiniProject11_ColorImageSmoothing.pdb
